@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>برنامج الأذكار والوضوء</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>الأذكار</h1>
+    </header>
+    <main>
+        <section id="azkar">
+            <h1>الأذكار</h1>
+            <p>اضغط على الزر لتشغيل الأذكار</p>
+            <button onclick="fetchData()">عرض الأذكار</button>
+            <div id="azkar-output"></div>
+        </section>
+        <section id="wudu">
+            <h1>خطوات الوضوء</h1>
+            <p>اضغط على الزر لعرض خطوات الوضوء</p>
+            <button onclick="fetchWudu()">عرض الوضوء</button>
+            <div id="wudu-output"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Made By Mohamed Farouk</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
